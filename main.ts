@@ -22,7 +22,7 @@ const LINE =
 // One-sentence gate: the line must be a single sentence of 1-200 chars and
 // not only whitespace, so the entry always clears the house gate
 // (/output/entry.txt must hold 1-159 UTF-8 chars of text).
-function gate(line: string): void {
+function gate(line) {
   const text = line.trim();
   if (text.length < 1 || text.length > 200) {
     throw new Error(`line must be 1-200 chars, got ${text.length}`);

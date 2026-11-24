@@ -1,0 +1,1 @@
+{"description":"One funny git commit message for make.fun's Ship It Friday bounty.","license":"MIT","main":"main.ts","name":"ship-it-friday-bigger-model","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
